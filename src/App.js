@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
 
     const getReq = async () => {
-      await axios.get("https://localhost:8000/weather").then((response) => {
+      await axios.get("https://weather-42t16aeub-divyanshi.vercel.app/weather").then((response) => {
       setData(response.data);
     })
       
